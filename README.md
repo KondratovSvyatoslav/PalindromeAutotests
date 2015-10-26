@@ -24,8 +24,8 @@ $ npm install
 ### Run tests
 The tests for nightwatch are written using [nodeunit](https://github.com/caolan/nodeunit) as the test framework. To run the nodeunit tests do:
 ```sh
-node nightwatch –test –env default-Windows
-./nightwatch –test –env default -MacOS
+node nightwatch –-test –-env default-Windows
+./nightwatch –-test -–env default -MacOS
 ```
 
 ### Discuss
