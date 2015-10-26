@@ -1,0 +1,125 @@
+{
+    "numTests": 5,
+    "numFailures": 1,
+    "numSuccess": 4,
+    "summaryReportGenDateTime": "10/26/2015, 1:02:30 PM",
+    "suites": [
+        {
+            "file": "reports/CHROME_46.0.2490.80_XP_EnterEmptyString.xml",
+            "name": "EnterEmptyString",
+            "numTests": 1,
+            "numSkipped": 0,
+            "numFailures": 0,
+            "numErrors": 0,
+            "package": "EnterEmptyString",
+            "executionTime": 0,
+            "timestamp": "Mon, 26 Oct 2015 11:01:41 GMT",
+            "cases": [
+                {
+                    "name": "Test",
+                    "numFailures": 0,
+                    "failures": [],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 7.968,
+                    "numAssertions": 3
+                }
+            ]
+        },
+        {
+            "file": "reports/CHROME_46.0.2490.80_XP_EnterNonPalindrome.xml",
+            "name": "EnterNonPalindrome",
+            "numTests": 1,
+            "numSkipped": 0,
+            "numFailures": 1,
+            "numErrors": 0,
+            "package": "EnterNonPalindrome",
+            "executionTime": 0,
+            "timestamp": "Mon, 26 Oct 2015 11:01:46 GMT",
+            "cases": [
+                {
+                    "name": "Test",
+                    "numFailures": 1,
+                    "failures": [
+                        {
+                            "message": {
+                                "message": "Testing if element <//*[@id=\"results\"]> contains text: \"There is no palindrome in entered string1\"."
+                            },
+                            "details": "    at Object.containsText (D:\\Palindrome\\PalindromeAutotests\\lib\\page-object\\command-wrapper.js:103:25)\n    at Object.module.exports.Test (D:\\Palindrome\\PalindromeAutotests\\newtests\\EnterNonPalindrome.js:13:21)\n    at Module.call (D:\\Palindrome\\PalindromeAutotests\\lib\\runner\\module.js:63:34)\n    at D:\\Palindrome\\PalindromeAutotests\\lib\\runner\\testcase.js:97:29\n    at _fulfilled (D:\\Palindrome\\PalindromeAutotests\\node_modules\\q\\q.js:834:54)\n    at self.promiseDispatch.done (D:\\Palindrome\\PalindromeAutotests\\node_modules\\q\\q.js:863:30)\n    at Promise.promise.promiseDispatch (D:\\Palindrome\\PalindromeAutotests\\node_modules\\q\\q.js:796:13)\n    at D:\\Palindrome\\PalindromeAutotests\\node_modules\\q\\q.js:556:49\n    at runSingle (D:\\Palindrome\\PalindromeAutotests\\node_modules\\q\\q.js:137:13)\n    at flush (D:\\Palindrome\\PalindromeAutotests\\node_modules\\q\\q.js:125:13)"
+                        }
+                    ],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 5.421,
+                    "numAssertions": 3
+                }
+            ]
+        },
+        {
+            "file": "reports/CHROME_46.0.2490.80_XP_EnterNumberPalindrome.xml",
+            "name": "EnterNumberPalindrome",
+            "numTests": 1,
+            "numSkipped": 0,
+            "numFailures": 0,
+            "numErrors": 0,
+            "package": "EnterNumberPalindrome",
+            "executionTime": 0,
+            "timestamp": "Mon, 26 Oct 2015 11:01:51 GMT",
+            "cases": [
+                {
+                    "name": "Test",
+                    "numFailures": 0,
+                    "failures": [],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 4.805,
+                    "numAssertions": 5
+                }
+            ]
+        },
+        {
+            "file": "reports/CHROME_46.0.2490.80_XP_EnterStringPalindrome.xml",
+            "name": "EnterStringPalindrome",
+            "numTests": 1,
+            "numSkipped": 0,
+            "numFailures": 0,
+            "numErrors": 0,
+            "package": "EnterStringPalindrome",
+            "executionTime": 0,
+            "timestamp": "Mon, 26 Oct 2015 11:01:56 GMT",
+            "cases": [
+                {
+                    "name": "Test",
+                    "numFailures": 0,
+                    "failures": [],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 5.304,
+                    "numAssertions": 7
+                }
+            ]
+        },
+        {
+            "file": "reports/CHROME_46.0.2490.80_XP_EnterSymbolPalindrome.xml",
+            "name": "EnterSymbolPalindrome",
+            "numTests": 1,
+            "numSkipped": 0,
+            "numFailures": 0,
+            "numErrors": 0,
+            "package": "EnterSymbolPalindrome",
+            "executionTime": 0,
+            "timestamp": "Mon, 26 Oct 2015 11:02:02 GMT",
+            "cases": [
+                {
+                    "name": "Test",
+                    "numFailures": 0,
+                    "failures": [],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 5,
+                    "numAssertions": 4
+                }
+            ]
+        }
+    ]
+}

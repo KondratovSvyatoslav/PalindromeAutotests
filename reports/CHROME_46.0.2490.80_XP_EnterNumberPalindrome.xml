@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="EnterNumberPalindrome"
+    errors="0" failures="0" hostname="" id="" package="EnterNumberPalindrome" skipped="0"
+    tests="1" time="0.000" timestamp="Mon, 26 Oct 2015 11:01:51 GMT">
+  
+    <testcase name="Test" time="4.805" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
